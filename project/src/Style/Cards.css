@@ -1,0 +1,136 @@
+.card {
+  width: 247px;
+  /* height:50px; */
+  background: #ffffff;
+  /* 0 */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+
+  border-radius: 15px;
+}
+
+#typeOfAd {
+  width: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 22px;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  /* or 175% */
+
+  display: flex;
+  align-items: center;
+
+  color: #fe2d61;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.pictureOfAd {
+  position: absolute;
+  width: 217px;
+  height: 129px;
+  left: 15px;
+  top: 15px;
+}
+
+.framePink {
+  /* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 10px;
+gap: 10px;
+
+position: absolute;
+width: 53px;
+height: 22px;
+left: 10px;
+top: 17px; */
+
+  background: #ffd1dd;
+  /* border-radius: 100px; */
+}
+.frameBlue {
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 53px;
+    height: 22px;
+    left: 10px;
+    top: 17px; */
+
+  background: #beeae9;
+  /* border-radius: 100px; */
+}
+#not {
+  background-color: rgb(238, 246, 4);
+  position: absolute; 
+  margin-top: -2%;
+  left:51%;
+}
+.three {
+  width: 5%;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10%;
+  float: left;
+}
+.cardPer {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 25px;
+  gap: 75px;
+  
+  width: 90%;
+  height: 90px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.letter{
+  width: 94px;
+height: 16px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+text-align: right;
+letter-spacing: 0.0772457px;
+
+color: #0A5959;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
